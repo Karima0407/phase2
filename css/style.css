@@ -497,3 +497,93 @@ li {
   height: 50px;
   text-align: right;
 }
+
+
+/**************lien_menu********************/
+.lien1{
+  display: flex;
+  
+  
+}
+ul.lien1 li{
+  margin:8px;
+  padding:5px 10px;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px 3px black;
+  background-color: #2c3e50;
+}
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+h1{
+  text-align: left;
+  color:black ;
+}
+.lien2>p>a{
+  color: #2980b9;
+  
+  
+}
+p{
+  margin: 20px;
+  
+}
+.clic{
+  color: black;
+}
+.clic>a{
+  color: #2980b9;
+}
+#Lesmenus ul{
+display: flex;
+justify-content: space-around;
+width: 80%;
+margin: auto;
+}
+#Lesmenus a{
+  color: gray;
+}
+#Lesmenus li{
+  border: 1px solid white;
+  border-radius: 20% 0 20% 0;
+  font-size: 24px;
+  padding: 10px;
+}
+#Lmd{
+  background-color: #aaa;
+  width:90% ;
+  margin: auto;
+  height: 60px;
+}
+.lien2 a:hover{
+color: red;
+}
+#Lmd>ul{
+  display: flex;
+  justify-content: space-evenly;
+ padding-top: 10px;
+  
+
+}
+#Lmd a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+#Lmd li{
+  border: 1px solid white;
+  border-radius: 20% 0 20% 0;
+  padding: 10px;
+  background-color: #6acafc;
+  color: black;
+  
+}
+h3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
