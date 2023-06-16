@@ -73,32 +73,76 @@
         <li><a href="animation.html">Animation</a></li>
       </ul>
     </nav>
+ <main>
+            <h2>Formulaire</h2>
+            <section class="form_bleu">
+                <form action="">
+                    <div class="form_div1">
+                        <label for="">Pseudo *</label>
+                        <input type="text">
+                    </div>
+                    <div class="form_div1">
+                        <label for="">Prénom </label>
+                        <input type="text" placeholder="Taper votre prénom">
+                    </div>
+                    <div class="form_div1">
+                        <label for="password"> Mot de passe</label>
+                        <input type="password" id="password" name="password">
+                        <!-- Dans type je met password pour que ca ne m'affiche pas le mot de passe -->
+                        <!-- J'ajoute dans for password pour quand je click sur le label, il sélectionne le input concerné -->
+                    </div>
+                    <div class="form_div1">
+                        <label for="">Email</label>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <div class="form_div1">
+                            <label for="">CV</label>
+                            <input type="file" value="Choisir un fichier">
+                            <!-- Dans le type je met file pour lafficher en tant que "Bouton"  et choisir un fichier-->
 
-    <main>
-      <!--Contenu principal-->
-      <aside>
-        <!--Contenu secondaire-->
-      </aside>
+                        </div>
+                        <div class="form_div3">
+                            <p>Quel sont vos fruits préférés? </p>
+                        </div>
+                        <div class="fruits">
+                            <input type="checkbox" class="checkbox">
+                            <label for="">Orange</label>
+                            <!-- Dans type je selectionne checkbox pour les petit carrée lol -->
 
-      <section>
-        <!--Zone de contenu : titre, texte, regroupement thématique-->
-        <div>
-          <!--Zone supplémentaire de contenu-->
-        </div>
+                            <input type="checkbox" class="checkbox">
+                            <label for="">Fraise</label>
 
-        <span>
-          <!--Zone supplémentaire de contenu-->
-        </span>
+                            <input type="checkbox" class="checkbox">
+                            <label for="">Poire</label>
+                        </div>
+                        <div>
+                            <div class="form_div1">
+                                <label for="" class="code">Code postal </label>
+                                <input type="text" class="codein">
+                            </div>
+                            <div class="clear"></div>
+                            <div class="form_div1">
+                                <label for="">Message</label>
+                                <textarea name="" id="" cols="30" rows="8"></textarea>
+                            </div>
+                            <div class="clear"></div>
 
-        <article>
-          <!--Zone supplémentaire de contenu-->
-        </article>
-      </section>
-    </main>
+                            <div class="fin">
+                                <input type="submit">
+                                <!-- dans type pour submit pour envoyer -->
+                                <button type="button">Annuler</button>
+                                <!-- dans type button pout annuler -->
+                            </div>
+                </form>
+            </section>
+        </main>
 
-    <footer>
-      <!--Zone du bas, ex : liens administratifs, mentions légales, plan du site, CGU, CGV, contact, copyright-->
-      <small> &copy; 2020 Le PoleS </small>
-    </footer>
+        <footer>
+            <!--Zone du bas, ex : liens administratifs, mentions légales, plan du site, CGU, CGV, contact, copyright-->
+            <small>
+                &copy; 2020 Le PoleS
+            </small>
+        </footer>
   </body>
 </html>

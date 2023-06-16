@@ -425,7 +425,6 @@ li {
 .contenu5 {
   width: 80%;
   margin: auto;
-  
 }
 #zone6 {
   width: 80%;
@@ -498,92 +497,168 @@ li {
   text-align: right;
 }
 
-
 /**************lien_menu********************/
-.lien1{
+.lien1 {
   display: flex;
-  
-  
 }
-ul.lien1 li{
-  margin:8px;
-  padding:5px 10px;
+ul.lien1 li {
+  margin: 8px;
+  padding: 5px 10px;
   border-radius: 15px;
   color: white;
   text-decoration: none;
   box-shadow: 0px 0px 10px 3px black;
   background-color: #2c3e50;
 }
-a{
+a {
   text-decoration: none;
   color: white;
-  
 }
-h1{
+h1 {
   text-align: left;
-  color:black ;
-}
-.lien2>p>a{
-  color: #2980b9;
-  
-  
-}
-p{
-  margin: 20px;
-  
-}
-.clic{
   color: black;
 }
-.clic>a{
+.lien2 > p > a {
   color: #2980b9;
 }
-#Lesmenus ul{
-display: flex;
-justify-content: space-around;
-width: 80%;
-margin: auto;
+p {
+  margin: 20px;
 }
-#Lesmenus a{
+.clic {
+  color: black;
+}
+.clic > a {
+  color: #2980b9;
+}
+#Lesmenus ul {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+#Lesmenus a {
   color: gray;
 }
-#Lesmenus li{
+#Lesmenus li {
   border: 1px solid white;
   border-radius: 20% 0 20% 0;
   font-size: 24px;
   padding: 10px;
 }
-#Lmd{
+#Lmd {
   background-color: #aaa;
-  width:90% ;
+  width: 90%;
   margin: auto;
   height: 60px;
 }
-.lien2 a:hover{
-color: red;
+.lien2 a:hover {
+  color: red;
 }
-#Lmd>ul{
+#Lmd > ul {
   display: flex;
   justify-content: space-evenly;
- padding-top: 10px;
-  
-
+  padding-top: 10px;
 }
-#Lmd a{
+#Lmd a {
   color: black;
   text-decoration: none;
   text-align: center;
 }
-#Lmd li{
+#Lmd li {
   border: 1px solid white;
   border-radius: 20% 0 20% 0;
   padding: 10px;
   background-color: #6acafc;
   color: black;
-  
 }
-h3{
+h3 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
+/**************liste********************/
+
+.h2liste {
+  margin-bottom: 50px;
+}
+.ulliste {
+  display: flex;
+  justify-content: left;
+}
+.ulliste li {
+  padding: 50px;
+}
+
+ol li {
+  list-style-type: decimal;
+  margin-left: 30px;
+}
+.europee {
+  display: block;
+  justify-content: left;
+  margin-left: 30px;
+}
+.europee li {
+  list-style: disc;
+}
+.def {
+  display: block;
+  justify-content: left;
+  margin-left: 30px;
+}
+.espace {
+  margin-bottom: 50px;
+}
+.def li {
+  display: block;
+  justify-content: left;
+}
+
+/**************tableau********************/
+caption i {
+  text-align: center;
+  margin: 0px;
+}
+table,
+th,
+td {
+  border: 1px solid blue;
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+}
+table {
+  width: 80%;
+}
+th,
+tfoot {
+  background-color: rgb(147, 201, 219);
+  height: 35px;
+}
+<a
+  href="#logo"
+  > <button
+  type="button"
+  > <i
+  class="fa fa-arrow-circle-up"
+  aria-hidden="true"
+  > </i
+  > </button
+  > </a
+  > #logo {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+}
+
+button {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 350%;
+  color: #2d5c7f;
+}
